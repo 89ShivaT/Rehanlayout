@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 960px;
+    height: 900px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+ .container .main-head{
+     width: 100%;
+ }
+
+ .container .main-head img{
+     width: 100%;
+    
+ }
+
+ .container .header{
+     padding: 0px;
+     margin: 0px;
+     width: 100%;
+     background-color: rgb(199, 197, 197);
+   
+    
+ }
+  .container .header .mainu{
+      width: 100%;
+     
+      
+  }
+
+  .header .mainu .left-menu{
+      display: flex;
+  }
+  .header .mainu .left-menu li{
+      padding: 10px;
+      list-style: none;
+  }
+
+  .header .mainu .right-menu{
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      bottom: 25px;
+  }
+  .header .mainu .right-menu li{
+      list-style: none;
+ 
+    
+  }
+  .header .mainu .right-menu #lol{
+ 
+    order:3 ;
+  
+}
+.header .mainu .right-menu #lo{
+    
+    order: 2;
+  
+}
+.header .mainu .right-menu #btn{
+
+    order:1 ;
+    background-color: black;
+    color: white;
+    
+}
+
+.container .ban{
+    width: 100%;
+  
+
+}
+.container .ban .leftbar{
+    width:20%;
+   
+
+ 
+}
+.container .ban .leftbar h1{
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.container .ban .leftbar ul{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.container .ban .leftbar ul li{
+    padding: 5px;
+}
+
+.container .ban .leftbar .for{
+    margin-left: 10px;
+    
+}
+
+  
+
+
+
+.container .ban .rightbar{
+    width: 79%;
+    position: relative;
+    left: 203px;
+    bottom:520px;
+
+}
+.container .ban .rightbar .banner{
+    width: 100%;
+}
+.container .ban .rightbar .banner img{
+    width:100%;
+}
+.container .ban .rightbar .produ{
+    width: 100%;
+  
+   
+}
+
+.container .ban .rightbar .produ .pro1{
+    width: 200px;
+    border:1px solid rgba(99, 97, 97, 0.884);
+
+    margin-left: 20px;
+}
+
+.container .ban .rightbar .produ .pro1 img{
+    width: 100%;
+}
+.container .ban .rightbar .produ .pro2{
+    width: 200px;
+    border:1px solid rgba(99, 97, 97, 0.884);
+    margin-right: 20px;
+}
+.container .ban .rightbar .produ .pro2 img{
+    width: 100%;
+}
+.container .ban .rightbar .produ .pro3{
+    width: 200px;
+    border:1px solid black;
+   margin-right: 45px;
+   
+}
+.container .ban .rightbar .produ .pro3 img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
